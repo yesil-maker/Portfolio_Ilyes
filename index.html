@@ -9,21 +9,6 @@
 </head>
 
 <body>
-    <script>
-    const toggleBtn = document.getElementById("theme-toggle");
-
-    toggleBtn.addEventListener("click", () => {
-        document.body.classList.toggle("dark-theme");
-
-        // Change l'icône en fonction du thème
-        if (document.body.classList.contains("dark-theme")) {
-            toggleBtn.innerHTML = "☀️";
-        } else {
-            toggleBtn.innerHTML = "🌙";
-        }
-    });
-    </script>
-    
     <header>
         <nav>
             <ul>
@@ -35,9 +20,6 @@
                 <li><a href="#contact">me contacter</a></li>
             </ul>
         </nav>
-        <button id="theme-toggle" class="theme-btn">
-            <i class="fa-solid fa-moon"></i>
-        </button>
     </header>
 
     <main>
@@ -244,6 +226,7 @@
     </footer>
 </body>
 </html>
+
 
 
 
